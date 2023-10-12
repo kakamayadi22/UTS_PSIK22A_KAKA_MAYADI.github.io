@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Cambria;
+    background-color: #712b2b;
+    line-height: 1.6;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header ul {
+    list-style: none;
+}
+
+header ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.skill-container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    gap: 10px; 
+}
+
+
+.skill-category {
+    flex-basis: calc(33.33% - 20px);
+    text-align: left;
+    margin-right: 0 10px;
+}
+
+
+.skill-bar {
+    background-color: #d8cece;
+    height: 15px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.skill-percent {
+    height: 100%;
+    background-color: #0be5a0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    line-height: 15px;
+}
+
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table td {
+    text-align: center;
+    padding: 20px;
+}
+
+table h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+table h4 {
+    font-size: 18px;
+    color: #999;
+}
+
+table img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+form {
+    margin-top: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    header ul {
+        text-align: center;
+        padding: 20px 0;
+    }
+    header ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
